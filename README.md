@@ -1,6 +1,3 @@
-# Contract Deployment with Hardhat
-
-This straightforward Hardhat project is designed to guide you in creating a basic smart contract for message setting and retrieval. Dive into deploying your contract and interact with it using scripts & SwisstronikJS 🚀
 # Swisstronik Tesnet Techinal Task 2
 
 link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
@@ -27,21 +24,29 @@ cd swisstronik
 
 ### 2. Install hardhat
 
+```bash
 npm install --save-dev hardhat
+```
 
 ### 3. Set PRIVATE_KEY
 
 PRIVATE_KEY="your private key"
 
 ### 4. 
+
+```bash
 npm install --save-dev @nomicfoundation/hardhat-toolbox
+```
 
 ### 5. 
+```bash
 npx hardhat compile
+```
 
 ### 6. 
-
+```bash
 npx hardhat run scripts/deploy.js --network swisstronik
+```
 
 
 by :
